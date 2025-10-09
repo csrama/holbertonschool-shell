@@ -1,0 +1,4 @@
+#!/bin/bash
+perm=$(stat -c "%a" olleh)
+chmod "$perm" hello
+
